@@ -10,6 +10,10 @@ class Solver
       num * factorial(num - 1)
     end
   end
+
+  def reverse(string)
+    string.reverse if string.is_a? String
+  end
 end
 
 # rubocop:enable Style/Documentation
