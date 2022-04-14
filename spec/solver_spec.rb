@@ -19,4 +19,26 @@ describe Solver do
       expect(@solver.reverse('Wrold')).to be_a_kind_of(String)
     end
   end
+
+  context 'Test fizzbuzz method' do
+    it 'Case N is divisible by 3' do
+      expect(@solver.fizzbuzz(3)).to eq 'fizz'
+      expect(@solver.fizzbuzz(27)).to eq 'fizz'
+    end
+
+    it 'Case N is divisible by 5' do
+      expect(@solver.fizzbuzz(5)).to eq 'buzz'
+      expect(@solver.fizzbuzz(55)).to eq 'buzz'
+    end
+
+    it 'Case N is divisible by 5 and 3' do
+      expect(@solver.fizzbuzz(15)).to eq 'fizzbuzz'
+      expect(@solver.fizzbuzz(45)).to eq 'fizzbuzz'
+    end
+
+    it 'Case N is not divisible by 5 or 3' do
+      expect(@solver.fizzbuzz(7)).to eq '7'
+    end
+  end
+
 end
