@@ -18,6 +18,21 @@ This way of working will allow faster development because if a requirement chang
 - Install Rspec using `gem install rspec`
 - Run the tests `rspec spec spec\solver_spec.rb`
 
+# Authors
+
+👤 **Akshitha Reddy**
+
+- GitHub: [@AkshithaReddy1899](https://github.com/AkshithaReddy1899)
+- Twitter: [@Aksha1899](https://twitter.com/Aksha1899)
+- LinkedIn: [Akshitha Reddy](https://www.linkedin.com/in/akshitha-reddy-716944198/)
+
+👤 **Fatima Ezzahra elmenoun**
+
+- GitHub: [@TimmyChan99](https://github.com/TimmyChan99)
+- Twitter: [@elemenoun](https://twitter.com/elemenoun)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fatima-ezzahra-elemenoun-020841225/)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
